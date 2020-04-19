@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".TestActivity">
+
+    <ImageView
+        android:id="@+id/ivCamera"
+        android:src="@drawable/add_camera_96px"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <ImageView
+        android:id="@+id/ivCamera2"
+        android:src="@drawable/add_camera_96px"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+
+</LinearLayout>

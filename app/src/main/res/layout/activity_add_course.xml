@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activities.AddCourseActivity">
+
+<!--
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="Add Course"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_lay"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    <Spinner
+        android:id="@+id/spinnerClasses"
+        android:entries="@array/computer_science_courses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etCourseName"
+        android:layout_margin="12dp"
+        android:padding="12dp"
+        android:background="@drawable/bg_et"
+        android:hint="Course name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etCourseCode"
+        android:layout_margin="12dp"
+        android:padding="12dp"
+        android:background="@drawable/bg_et"
+        android:hint="Course code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etTotalStudents"
+        android:layout_margin="12dp"
+        android:padding="12dp"
+        android:background="@drawable/bg_et"
+        android:hint="Total Students"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:textColor="@android:color/white"
+        android:background="@color/greenClr"
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

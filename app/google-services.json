@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "664760854760",
+    "firebase_url": "https://attendancecam-cbd3d.firebaseio.com",
+    "project_id": "attendancecam-cbd3d",
+    "storage_bucket": "attendancecam-cbd3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664760854760:android:085b2a6b08eadd333b815d",
+        "android_client_info": {
+          "package_name": "com.shahzadakhtar.attendancecam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664760854760-8grfsch5sqe376h9ih9dlu09b8uqr77e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA273X_Gg483qlCF1oSy0sgiS8jQbhY7JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664760854760-8grfsch5sqe376h9ih9dlu09b8uqr77e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

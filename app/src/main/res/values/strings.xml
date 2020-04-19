@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">FacialAttendance</string>
+
+    <string-array name="computer_science_courses">
+        <item>Bachelor in Computer Science</item>
+        <item>Bachelor in Software Engineering</item>
+        <item>Bachelor in Information Technology</item>
+        <item>BSCS(Hons): Robotics</item>
+        <item>BSCS(Hons): Computer Networking</item>
+        <item>BSCS(Hons): Game Development</item>
+        <item>BSCS(Hons): Artificial Intelligence</item>
+        <item>BSCS(Hons): Digital Media and Web Technology</item>
+        <item>BSCS(Hons): Data Sciences</item>
+    </string-array>
+
+    <string-array name="management_sciences_courses">
+        <item>BBA(Hons)</item>
+        <item>BBA(Hons): Human Resource Management</item>
+        <item>BBA(Hons): Management</item>
+        <item>BBA(Hons): Marketing</item>
+        <item>BBA(Hons): Innovation &amp; Entrepreneurship</item>
+        <item>BBA(Hons): Accounting &amp; Finance</item>
+        <item>BBA(Hons): Economics</item>
+        <item>BBA(Hons): Operations Management</item>
+        <item>BBA(Hons): Public Administration</item>
+    </string-array>
+    <string-array name="commerce_courses">
+        <item>Bachelor of Commerce</item>
+        <item>B.Com(Hons): Accounting &amp; Finance</item>
+        <item>B.Com(Hons): Marketing</item>
+        <item>B.Com(Hons): Economics</item>
+        <item>B.Com(Hons): Business Analytics</item>
+        <item>BS(Hons): Accounting &amp; Finance</item>
+    </string-array>
+    <string-array name="humanities_social_courses">
+        <item>BS(Hons) English</item>
+        <item>BS(Hons) English: Literature</item>
+        <item>BS(Hons) English: Language/Linguistics</item>
+        <item>BS(Hons) Psychology</item>
+        <item>BS(Hons) Sociology</item>
+        <item>Bachelor of Media Studies (Hons)</item>
+        <item>Bachelor of Media Studies (Hons): Electronic Media</item>
+        <item>Bachelor of Media Studies (Hons): Print Media</item>
+        <item>Bachelor of Media Studies (Hons): Advertising &amp; Public Relations</item>
+        <item>BS(Hons) Education</item>
+        <item>BS(Hons) Mathematics</item>
+        <item>BS(Hons) Physical Education</item>
+    </string-array>
+    <string-array name="art_and_fashion_courses">
+        <item>Bachelor of Architecture</item>
+        <item>Bachelor of Building &amp; Construction</item>
+        <item>Bachelor of Fashion Design(Hons)</item>
+        <item>Bachelor of Interior Design</item>
+        <item>Bachelor of Textile Design</item>
+    </string-array>
+
+    <string-array name="departments_list">
+        <item>Faculty of Computer Science</item>
+        <item>Faculty of Management Sciences</item>
+        <item>Faculty of Commerce</item>
+        <item>Faculty of Humanities and Social Sciences</item>
+        <item>Faculty of Art and Fashion Design</item>
+        <item>Faculty of Life and Health Sciences</item>
+        <item>Faculty of Law</item>
+    </string-array>
+
+    <string name="pick_image_intent_text">Tell the student to say CHEESE</string>
+    <string name="subscription_key">f7453a0f7d9a4471a2c9cd607abd5aed</string>
+    <string name="endpoint">https://westcentralus.api.cognitive.microsoft.com/face/v1.0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
