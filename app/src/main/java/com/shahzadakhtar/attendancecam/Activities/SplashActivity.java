@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Toast;
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.shahzadakhtar.attendancecam.MainActivity;
 import com.shahzadakhtar.attendancecam.MyPrefs;
@@ -51,7 +50,7 @@ public class SplashActivity extends Activity {
                 }
 
             }
-        }, 3000);
+        }, 5000);
 
     }
 }

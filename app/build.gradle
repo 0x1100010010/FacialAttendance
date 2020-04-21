@@ -33,6 +33,7 @@ dependencies {
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
 
 
     implementation 'com.jakewharton:butterknife:10.2.1'
@@ -54,7 +55,7 @@ dependencies {
     implementation 'com.microsoft.projectoxford:face:1.4.4'
 
     implementation 'io.fotoapparat.fotoapparat:library:1.0.4'
-
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
     implementation 'com.google.firebase:firebase-ml-vision:24.0.2'
     // If you want to detect face contours (landmark detection and classification
     // don't require this additional model):

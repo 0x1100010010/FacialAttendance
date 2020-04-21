@@ -4,13 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/white"
     tools:context=".Activities.SplashActivity">
 
     <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:src="@drawable/usa_logo" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/usa_logo"
-        android:layout_width="200dp"
-        android:layout_height="200dp" />
+        android:src="@drawable/usa_dev_logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="259dp"
+        android:text="Facial Attendance USA" />
 
 </RelativeLayout>

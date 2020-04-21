@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "27478748312",
+    "firebase_url": "https://facial-attendance-dev.firebaseio.com",
+    "project_id": "facial-attendance-dev",
+    "storage_bucket": "facial-attendance-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27478748312:android:3d1f5c30f6236438d9f4ed",
+        "android_client_info": {
+          "package_name": "com.shahzadakhtar.attendancecam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27478748312-6vir90nib9pgcj3raamua6flv07p8du3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrqNBuelcTNENfLmtU6ZG0T3pP-3Tily4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27478748312-6vir90nib9pgcj3raamua6flv07p8du3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
