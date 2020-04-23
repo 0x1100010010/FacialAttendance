@@ -32,7 +32,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:layout_margin="25dp"
-        android:src="@drawable/usa_logo_green" />
+        android:src="@drawable/usa_logo_blue" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -66,7 +66,7 @@
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/teacher" />
+                        android:src="@drawable/teacher_blue" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -103,7 +103,7 @@
                     android:paddingLeft="12dp"
                     android:paddingRight="12dp"
                     android:text="Register Here"
-                    android:textColor="@color/green" />
+                    android:textColor="@color/blue" />
 
             </LinearLayout>
 
@@ -126,7 +126,7 @@
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/student" />
+                        android:src="@drawable/student_blue" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -164,7 +164,7 @@
                     android:paddingLeft="12dp"
                     android:paddingRight="12dp"
                     android:text="Register Here"
-                    android:textColor="@color/green" />
+                    android:textColor="@color/blue" />
 
             </LinearLayout>
 

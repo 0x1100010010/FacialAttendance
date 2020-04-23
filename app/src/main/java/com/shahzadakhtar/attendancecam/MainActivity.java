@@ -106,8 +106,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         prefs.setType("");
         auth.signOut();
         startActivity(new Intent(MainActivity.this, StartingActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
-
     }
-
 }
 

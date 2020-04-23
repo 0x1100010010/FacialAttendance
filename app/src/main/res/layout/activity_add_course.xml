@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".Activities.AddCourseActivity">
+    tools:context=".Activities.AddCourseActivity"
+    android:layout_margin="30dp">
 
 <!--
     <TextView
@@ -33,29 +34,30 @@
         android:id="@+id/spinnerClasses"
         android:entries="@array/computer_science_courses"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"/>
 
     <EditText
         android:id="@+id/etCourseName"
-        android:layout_margin="12dp"
-        android:padding="12dp"
-        android:background="@drawable/bg_et"
+        android:layout_marginBottom="15dp"
+        android:padding="9dp"
+        android:background="@color/textBox"
         android:hint="Course name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/etCourseCode"
-        android:layout_margin="12dp"
-        android:padding="12dp"
-        android:background="@drawable/bg_et"
+        android:layout_marginBottom="15dp"
+        android:padding="9dp"
+        android:background="@color/textBox"
         android:hint="Course code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/etTotalStudents"
-        android:layout_margin="12dp"
-        android:padding="12dp"
-        android:background="@drawable/bg_et"
+        android:layout_marginBottom="30dp"
+        android:padding="9dp"
+        android:background="@color/textBox"
         android:hint="Total Students"
         android:inputType="number"
         android:layout_width="match_parent"
@@ -64,10 +66,10 @@
     <Button
         android:id="@+id/btnAdd"
         android:textColor="@android:color/white"
-        android:background="@color/greenClr"
+        android:background="@drawable/grad_blue"
         android:text="Add"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
     </LinearLayout>
 
 </LinearLayout>

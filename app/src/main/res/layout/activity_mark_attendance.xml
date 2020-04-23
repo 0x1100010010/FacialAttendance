@@ -37,29 +37,29 @@
             android:src="@drawable/camera" />
 
         <Spinner
+            android:id="@+id/departmentSpinner"
             android:layout_margin="30dp"
             android:layout_width="match_parent"
-            android:id="@+id/departmentSpinner"
-            android:layout_height="wrap_content"/>
+            android:layout_height="40dp"/>
         <Spinner
             android:id="@+id/courseSpinner"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="40dp"/>
 
 
         <TextView
             android:id="@+id/tvClass"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_margin="30dp"
             android:textColor="@android:color/black" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/green"
+            android:background="@drawable/grad_blue"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:text="Mark"

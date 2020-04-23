@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.shahzadakhtar.attendancecam.R;
+import com.transitionseverywhere.TransitionManager;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -40,6 +41,7 @@ public class StartingActivity extends AppCompatActivity implements View.OnClickL
 
     @OnClick(R.id.btnTeacherLogin)
     void btnManualOnClick(View view){
+        //TransitionManager.beginDelayedTransition(transitionsContainer);
         startActivity(new Intent(this, LoginActivity.class).putExtra("type","teacher"));
     }
     @OnClick(R.id.btnStdLogin)

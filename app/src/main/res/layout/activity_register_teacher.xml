@@ -15,11 +15,11 @@
         android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="15dp"
-        android:textColor="@color/green"
+        android:textColor="@color/blue"
         android:text="Teacher Registration"
         android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="40dp" />
 
     <ScrollView
         android:layout_marginLeft="24dp"
@@ -41,15 +41,15 @@
                 android:hint="Full name"
                 android:layout_margin="15dp"
                 android:padding="9dp"
-                android:background="#11000000"
+                android:background="@color/textBox"
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
             <Spinner
                 android:layout_marginLeft="15dp"
                 android:id="@+id/genderSpinner"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:tooltipText="Gender"/>
 
             <EditText
@@ -57,27 +57,27 @@
                 android:hint="Contact no"
                 android:layout_margin="15dp"
                 android:padding="9dp"
-                android:background="#11000000"
+                android:background="@color/textBox"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
             <EditText
                 android:id="@+id/etEmail"
                 android:hint="Email"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:padding="9dp"
-                android:background="#11000000"
+                android:background="@color/textBox"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
             <EditText
                 android:id="@+id/etPassword"
                 android:inputType="textPassword"
                 android:hint="Password"
                 android:layout_margin="15dp"
                 android:padding="9dp"
-                android:background="#11000000"
+                android:background="@color/textBox"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
 
             <EditText
@@ -86,17 +86,17 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:padding="9dp"
-                android:background="#11000000"
+                android:background="@color/textBox"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
             <EditText
                 android:id="@+id/etSalary"
                 android:hint="Salary"
                 android:layout_margin="15dp"
                 android:padding="9dp"
-                android:background="#11000000"
+                android:background="@color/textBox"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
             <EditText
                 android:id="@+id/etAddress"
                 android:hint="Address"
@@ -104,9 +104,9 @@
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="15dp"
                 android:padding="9dp"
-                android:background="#11000000"
+                android:background="@color/textBox"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
             <Button
                 android:id="@+id/btnRegister"
@@ -114,7 +114,7 @@
                 android:text="Register"
                 android:paddingLeft="12dp"
                 android:paddingRight="12dp"
-                android:background="@color/green"
+                android:background="@drawable/grad_blue"
                 android:layout_gravity="center"
                 android:textColor="@android:color/white"
                 android:layout_width="match_parent"

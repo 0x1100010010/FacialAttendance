@@ -4,14 +4,15 @@
     <color name="white">#ffffff</color>
     <color name="grey">#EFEFEF</color>
     <color name="green">#02c7a9</color>
+    <color name="blue">#177fca</color>
     <color name="text">#777777</color>
-    <color name="textBox">#777777</color>
+    <color name="textBox">#11000000</color>
     <color name="textLight">#CCCCCC</color>
     <color name="transparent">#80EFEFEF</color>
     <color name="cards">#B2EFEFEF</color>
 
-    <color name="colorPrimary">#C402C7A9</color>
-    <color name="colorPrimaryDark">#3C5B9C</color>
+    <color name="colorPrimary">#C4177fca</color>
+    <color name="colorPrimaryDark">#177fca</color>
     <color name="colorAccent">#D81B60</color>
 
     <color name="redClr">#D50000</color>
@@ -27,5 +28,6 @@
     <color name="blue2Clr">#0091EA</color>
     <color name="purple1Clr">#7C4DFF</color>
 
-
+    <color name="grad_blue_i">#E63181E2</color>
+    <color name="grad_blue_ii">#E6726BEC</color>
 </resources>

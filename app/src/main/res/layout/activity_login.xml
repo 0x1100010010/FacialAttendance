@@ -19,7 +19,7 @@
 
         <ImageView
             android:layout_margin="30dp"
-            android:src="@drawable/login_logo"
+            android:src="@drawable/auth_logo"
             android:layout_width="150dp"
             android:layout_height="150dp" />
 
@@ -33,7 +33,7 @@
             android:hint=" e-mail"
             android:maxLines="1"
             android:padding="9dp"
-            android:background="#11000000"
+            android:background="@color/textBox"
             android:ems="11"/>
 
         <EditText
@@ -44,7 +44,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginBottom="30dp"
-            android:background="#11000000"
+            android:background="@color/textBox"
             android:hint=" Password"
             android:drawableLeft="@drawable/ic_password"
             android:inputType="textPassword"
@@ -69,7 +69,7 @@
             android:layout_marginBottom="30dp"
             android:text="Login"
             android:textColor="#90000000"
-            android:background="@color/green"/>
+            android:background="@drawable/grad_blue"/>
     </LinearLayout>
 
 

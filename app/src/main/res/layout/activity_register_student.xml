@@ -14,7 +14,7 @@
         android:layout_margin="30dp"
         android:gravity="center"
         android:text="Student Registration"
-        android:textColor="@color/green"
+        android:textColor="@color/blue"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -154,9 +154,10 @@
                 android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:layout_margin="15dp"
-                android:background="@color/green"
+                android:background="@drawable/grad_blue"
                 android:text="Register"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                />
 
         </LinearLayout>
 

@@ -24,7 +24,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/bg_lay"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -33,55 +32,68 @@
             android:id="@+id/ivCamera"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:src="@drawable/add_camera_96px" />
+            android:layout_margin="35dp"
+            android:src="@drawable/camera" />
 
         <EditText
             android:id="@+id/etStudentName"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            android:background="@drawable/bg_et"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:padding="9dp"
+            android:background="@color/textBox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:hint="Student name" />
 
         <EditText
             android:id="@+id/etFatherName"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            android:background="@drawable/bg_et"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:padding="9dp"
+            android:background="@color/textBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Father's name" />
 
         <EditText
             android:id="@+id/etRollNo"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            android:background="@drawable/bg_et"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:padding="9dp"
+            android:background="@color/textBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Roll no" />
 
         <Spinner
             android:id="@+id/spinnerClasses"
-            android:layout_margin="6dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:entries="@array/computer_science_courses" />
 
         <Spinner
             android:id="@+id/spinnerCourses"
-            android:layout_margin="6dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:entries="@array/departments_list" />
 
         <Button
             android:id="@+id/btnAdd"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
             android:textColor="@android:color/white"
-            android:background="@color/greenClr"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:background="@drawable/grad_blue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:text="Add" />
     </LinearLayout>
 </LinearLayout>
